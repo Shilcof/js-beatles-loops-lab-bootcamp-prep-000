@@ -23,7 +23,7 @@ function johnLennonFacts(facts) {
 function theBeatlesPlay(num) {
   var numArray = [];
   do {
-    array.push(`${musicians[i]} plays ${instruments[i]}`);
+    numArray.push(`${musicians[i]} plays ${instruments[i]}`);
   } while
   
 }
