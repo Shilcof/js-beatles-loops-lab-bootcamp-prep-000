@@ -14,6 +14,7 @@ var count = 0;
 function johnLennonFacts(facts) {
   while (count < facts.length) {
     facts[count] = `${facts[count]}!!!`;
+    command.log
     count ++;
   }
   return facts;
