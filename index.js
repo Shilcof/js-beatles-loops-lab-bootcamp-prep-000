@@ -13,10 +13,10 @@ var count = 0;
 
 function johnLennonFacts(facts) {
   while (count < facts.length) {
-    facts[count] = `${facts[count]}!!!`;
+    newFacts[count] = `${facts[count]}!!!`;
     count ++;
   }
-  return facts;
+  return newFacts;
 }
 
 function iLoveTheBeatles(num) {
