@@ -19,3 +19,11 @@ function johnLennonFacts(facts) {
   }
   return facts;
 }
+
+function theBeatlesPlay(num) {
+  var numArray = [];
+  do {
+    array.push(`${musicians[i]} plays ${instruments[i]}`);
+  } while
+  
+}
