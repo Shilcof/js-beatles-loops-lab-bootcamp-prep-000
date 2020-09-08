@@ -4,17 +4,17 @@ var array = [];
 
 function theBeatlesPlay(musicians, instruments) {
   for (let i = 0; i < musicians.length; i++ ) {
-    array.push(`${musicians[i]} plays ${instruments[i]}`)
+    array.push(`${musicians[i]} plays ${instruments[i]}`);
   }
-  return array
+  return array;
 }
 
 var count = 0;
 
 function johnLennonFacts(facts) {
   while (count < facts.length) {
-    facts[count] = facts[count] + "!!!"
-    count ++
+    facts[count] = `${facts[count]}!!!`;
+    count ++;
   }
-  return facts
+  return facts;
 }
