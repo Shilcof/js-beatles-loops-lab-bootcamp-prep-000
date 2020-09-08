@@ -15,6 +15,7 @@ function johnLennonFacts(facts) {
   var newFacts = [];
   while (count < facts.length) {
     newFacts[count] = `${facts[count]}!!!`;
+    console.log(newFacts[count])
     count ++;
   }
   return newFacts;
