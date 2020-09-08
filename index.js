@@ -20,7 +20,7 @@ function johnLennonFacts(facts) {
   return facts;
 }
 
-function theBeatlesPlay(num) {
+function iLoveTheBeatles(num) {
   var numArray = [];
   do {
     numArray.push("I love the Beatles!");
